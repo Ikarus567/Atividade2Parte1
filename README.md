@@ -34,8 +34,8 @@ const usuario = {
 const jsonString = JSON.stringify(usuario);
 console.log(jsonString);
 
-const usuarioObj = JSON.parse(jsonString);
-console.log(usuarioObj.nome);
+const usuariojs = JSON.parse(jsonString);
+console.log(usuariojs.nome);
 ```
 
 ## Questão 3
@@ -48,8 +48,8 @@ console.log(usuarioObj.nome);
 ```javascript
 let frase = "JavaScript é baseada em ECMA Script";
 
-const contemScript = frase.includes("Script");
-console.log(contemScript);
+const tempalavra = frase.includes("Script");
+console.log(tempalavra);
 ```
 
 ### b-
@@ -71,7 +71,7 @@ console.log(fraseAlterada);
 ## Questão 4
 ### Qual a vantagem de usar template strings (``) em vez de concatenação com + para criar strings complexas ? 
 
-Pelo simples fato de template strings tornam o código mais limpo e menos propenso a erros com múltiplos + e espaços. Além das templates também ter uma facildade de incluir expressões através de ${} e também e não ser necessário a utilização de \n para ter varias linhas.
+Além das templates terem uma facildade de incluir expressões através do ${} e de não ser necessário a utilização de \n para ter varias linhas, acaba ocasionando com o simples fato de template strings tornam o código mais limpo e menos propenso a erros com múltiplos + e espaços. 
 
 ### Exemplo entre template e concatenação:
 
@@ -85,4 +85,5 @@ const frase2 = `Meu nome é ${nome} e tenho ${idade} anos.`;
 
 console.log(frase1);
 console.log(frase2);
+
 ```
