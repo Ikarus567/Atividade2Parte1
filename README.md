@@ -49,7 +49,7 @@ console.log(usuarioObj.nome);
 let frase = "JavaScript é baseada em ECMA Script";
 
 const contemScript = frase.includes("Script");
-console.log(contemScript); // Saída: true
+console.log(contemScript);
 ```
 
 ### b-
@@ -57,7 +57,7 @@ console.log(contemScript); // Saída: true
 let frase = "JavaScript é baseada em ECMA Script";
 
 const frasenova = frase.replace("JavaScript", "");
-console.log(frasenova); // Saída: " é baseada em ECMA Script"
+console.log(frasenova);
 ```
 
 ### c- 
